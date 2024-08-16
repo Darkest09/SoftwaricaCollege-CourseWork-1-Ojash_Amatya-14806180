@@ -1,0 +1,96 @@
+/* Basic reset and styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar .logo img {
+    width: 120px;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin-left: 20px;
+}
+
+.navbar .nav-links a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-links a:hover {
+    color: #007bff;
+}
+
+/* About Us section styles */
+.about-us {
+    background-color: #007bff;
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.about-us-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about-us-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.about-us-content .button {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1.1em;
+}
+
+.about-us-content .button:hover {
+    background-color: #41cbf1;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+}

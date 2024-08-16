@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Pharmacy Login</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js" defer></script>
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <img src="Blue and White Simple Abstract Heart Pharmacy Logo.png" alt="E-Pharmacy Logo" class="login-logo">
+            <h2>Welcome to E-Pharmacy</h2>
+            <p>Please login to continue</p>
+            <form id="login-form" action="#" method="POST">
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+                <button type="submit" class="login-btn">Login</button>
+            </form>
+            <div class="options">
+                <a href="#" class="forgot-password">Forgot Password?</a>
+                <span> | </span>
+                <a href="#" class="create-account" onclick = "window.location.href = 'register.html'">Create an Account</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
